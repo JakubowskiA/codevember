@@ -1,6 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import './App.css';
-import days from './components/Days'
 
 class DayCard extends Component {
   // state={
@@ -10,8 +8,8 @@ class DayCard extends Component {
 
     return (
       <div className="day-card">
-        
-        hi
+        <div className="day-img"></div>
+        <p>hi</p>
       </div>
     );
   }
