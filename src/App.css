@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  height: 100vh;
 }
 
 
@@ -12,10 +13,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }
 
 .day-card-grp{
@@ -30,4 +27,38 @@
   color: aliceblue;
   width: 20vw;
   height: 20vw;
+}
+
+.day-img{
+  width: 18vw;
+  height: 18vw;
+}
+
+.Contrast{
+  width: 18vw;
+  height: 18vw;
+  background-color: aliceblue;
+  background-image: repeating-linear-gradient(
+    90deg, white, white 50%, black 50%, black 100%);
+}
+/* .Contrast-inner{
+  width: 18vw;
+  height: 18vw;
+  background-color: aliceblue;
+  background-image: repeating-linear-gradient(
+    90deg, white, white 50%, black 50%, black 100%);
+} */
+
+.Geometric{
+  width: 18vw;
+  height: 18vw;
+  background: 
+linear-gradient(30deg, #52b4f1 12%, transparent 12.5%, transparent 87%, #52b4f1 87.5%, #52b4f1 0), 
+linear-gradient(150deg, #52b4f1 12%, transparent 12.5%, transparent 87%, #52b4f1 87.5%, #52b4f1 0), 
+linear-gradient(30deg, #52b4f1 12%, transparent 12.5%, transparent 87%, #52b4f1 87.5%, #52b4f1 0), 
+linear-gradient(150deg, #52b4f1 12%, transparent 12.5%, transparent 87%, #52b4f1 87.5%, #52b4f1 0), 
+linear-gradient(60deg, #ecfc9e 25%, transparent 25.5%, transparent 75%, #ecfc9e 75%, #ecfc9e 0), 
+linear-gradient(60deg, #ecfc9e 25%, transparent 25.5%, transparent 75%, #ecfc9e 75%, #ecfc9e 0), rgb(241, 116, 154);
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+background-size: 80px 140px;
 }
