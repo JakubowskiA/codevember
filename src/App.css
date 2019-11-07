@@ -62,3 +62,15 @@ linear-gradient(60deg, #ecfc9e 25%, transparent 25.5%, transparent 75%, #ecfc9e 
 background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 background-size: 80px 140px;
 }
+
+.Deep{
+  width: 18vw;
+  height: 18vw;
+  background: radial-gradient(closest-side,#000000, #001722,#03354d,#054766,#057ab1, #1a84b6, #0e93d1, #34b1eb, #7cd4fc);
+}
+
+.Big{
+  width: 18vw;
+  height: 18vw;
+  background: radial-gradient(circle at 100%, rgb(19, 19, 19), #333 35%, #333 50%, #eee 75%, #333 75%);
+}
