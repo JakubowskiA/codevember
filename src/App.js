@@ -8,6 +8,8 @@ class App extends Component {
   //   days:days
   // }
 
+  // hello
+
   render(){
     console.log('days', days)
     let daysArray = days.map(
