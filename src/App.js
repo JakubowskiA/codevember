@@ -8,7 +8,7 @@ class App extends Component {
   //   days:days
   // }
 
-  // hello
+  // testing
 
   render(){
     console.log('days', days)
