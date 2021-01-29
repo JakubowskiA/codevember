@@ -4,12 +4,6 @@ import days from './components/Days'
 import DayCard from './components/DayCard'
 
 class App extends Component {
-  // state={
-  //   days:days
-  // }
-
-  // testing
-
   render(){
     console.log('days', days)
     let daysArray = days.map(
